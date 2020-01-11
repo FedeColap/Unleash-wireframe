@@ -1,0 +1,21 @@
+.answer {
+    text-align: center;
+}
+.ffoa {
+    text-align: center;
+}
+button {
+    background-color: grey;
+}
+.spacer {
+    height: 100px;
+}
+.yourNotes {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+}
+.yourNotes li {
+    display: block;
+    margin-bottom: 50px;
+}

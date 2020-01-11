@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Unleash wireframe</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="mainForm.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav>
+        <header>Unleash</header>
+        <ul>
+            <li><a href="registerForm.html">Register</a></li>
+            <li><a href="login.html">Log in</a></li>
+        </ul>
+    </nav>
+    <img src="join.png" alt="evil smile emoji">
+    <h1>This is the register page of Unleash</h1>
+    <main>
+        <form class="demo-form" action="/some-server-endpoint" method ="post">
+            <h1>Welcome! Please fill this form in order to join.</h1>
+            <fieldset name="contact-info">
+                <label for="nick-name">Nickname</label>
+                <input type="text" name="nick-name" id="nick-name" placeholder="Rosy" />
+            
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="rosy@example.com"/>
+            
+                <label for="password" required>Password (8 characters minimum)</label>
+                <input type="password" pattern="^[1-9]\d{2}-\d{3}-\d{4}" name="password" id="password" placeholder="SomeSort_ofPassword1" title="Select your password" minlength="8" />
+
+                <label for="confirm-password" required>Confirm Password</label>
+                <input type="password" pattern="^[1-9]\d{2}-\d{3}-\d{4}" name="confirm-password" id="confirm-password" placeholder="SomeSort_ofPassword1" title="Confirm your password" minlength="8" />
+            
+            </fieldset>
+        </form>
+        <section class="buttonSpace">
+            <p class="butSub"><a href="login.html">Submit</a></p>
+            <p class="butCan"><a href="index.html">Cancel</a></p>
+        </section>
+
+    </main>
+  </body>
+</html>

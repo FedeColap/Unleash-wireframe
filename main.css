@@ -1,0 +1,49 @@
+* { 
+    font-family: 'Cantarell', sans-serif;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(161, 159, 163);
+    margin: 0;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: pink;
+}
+li {
+   display: inline-block; 
+   list-style-type: none;
+   font-size: 18px;
+   padding-right: 20px;
+}
+header {
+    font-size: 22px;
+}
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+
+}
+h1 {
+    text-align: center;
+}
+main {
+    background-color: #FAF5FF;
+    margin: 100px;
+}
+
+/*for the phones*/
+@media screen and (max-width: 510px) {
+    img {
+        width: 200px;
+    }
+}
+main {
+    margin: 50px;
+    font-size: 20px;
+}

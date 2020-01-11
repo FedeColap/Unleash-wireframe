@@ -1,0 +1,54 @@
+.buttonSpace {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+p.butSub, p.butCan {
+    display: inline-block;
+    background-color: pink;
+    border: 1px solid blue;
+    padding: 5px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+fieldset {
+    background-color: pink;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+label, input {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+/*for the phones*/
+@media screen and (max-width: 510px) {
+    fieldset {
+        width: 85%;
+    }
+    
+}
+/* for tablets */
+@media screen and (min-width: 510px) {
+    fieldset {
+        width: 75%;
+    }
+    
+}
+/* for computers */
+@media screen and (min-width: 1400px) {
+  fieldset {
+    width: 30%;
+  }
+  .buttonSpace {
+    width:30%;
+  }
+    
+} 
